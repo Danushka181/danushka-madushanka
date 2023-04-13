@@ -57,7 +57,7 @@ final Class DmPluginActivate {
             add_action( 'admin_enqueue_scripts', array( $this, 'load_dm_plugin_assets' ) );
         }else{
             $admin_message = new DmAdminNotices();
-//            $admin_message->show_dm_admin_notice( 'success', 'You are not authorized to perform this action.' );
+            $admin_message->show_dm_admin_notice( 'success', 'You are not authorized to perform this action.' );
         }
     }
 
@@ -91,8 +91,8 @@ final Class DmPluginActivate {
         wp_enqueue_script( 'dm-vue-file', DM_PLUGIN_URL . '/dist/js/main.js', array(), DM_VERSION, true );
         wp_enqueue_style( 'dm-plugin-style', DM_PLUGIN_URL . '/dist/css/main.css', array(), DM_VERSION, false );
 
-//        $admin_message = new DmAdminNotices();
-//        $admin_message->show_dm_no_script_message();
+        $admin_message = new DmAdminNotices();
+        $admin_message->show_dm_no_script_message();
     }
 
     /**

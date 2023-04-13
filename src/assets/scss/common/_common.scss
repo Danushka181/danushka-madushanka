@@ -1,0 +1,23 @@
+// no script message style.
+.dm-no-js{
+  display: block;
+  width: 100%;
+  padding:10px;
+  background-color:var(--dm-light-red);
+  text-align: center;
+  color:var(--dm-deep-red);
+  font-size: 14px;
+}
+
+#dm_admin_view{
+  font-family: var(--dm-main-font);
+  background-color: red;
+  width: calc(100% + 20px);
+  height: 100%;
+  display: flex;
+  margin: 0 0 0 -20px;
+  flex: 1;
+  >div{
+    width: 100%;
+  }
+}

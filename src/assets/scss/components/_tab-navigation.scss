@@ -1,0 +1,31 @@
+.dm-navigation{
+  background-color: var(--dm-white);
+  width: 100%;
+  display: flex;
+  min-height: 58px;
+  font-size: 14px;
+  margin: 0 0 20px 0;
+  padding: 0 20px;
+  &__inner{
+    display: flex;
+    gap: 20px;
+    a{
+      box-shadow: none;
+      color: var(--dm-dark-gray);
+      display: inline-flex;
+      place-items: center; 
+      padding: 20px 10px 18px 10px;
+      text-decoration: none;
+      transition: color 0.3s ease-out;
+      position: relative;
+      border-bottom: 2px solid transparent;
+      &:hover,
+      &.router-link-active{
+        color: var(--dm-deep-red);
+      }
+      &.router-link-active{
+        border-bottom: 2px solid var(--dm-deep-red);
+      }
+    }
+  }
+}
