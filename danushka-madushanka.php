@@ -54,7 +54,6 @@ define( 'DM_PLUGIN_DIR', dirname( DM_FILE ) );
  * Load the plugin activator and autoload.
  */
 require_once DM_PLUGIN_DIR . '/vendor/autoload.php';
-require_once DM_PLUGIN_DIR . '/App/Action/DmPluginActivate.php';
 
 
 /**

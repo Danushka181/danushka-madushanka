@@ -10,6 +10,11 @@ namespace Ddev\Action;
 
 use Ddev\Admin\DmAdminNotices;
 
+// Exit if accessed directly.
+if ( ! defined( 'ABSPATH' ) ) {
+    exit;
+}
+
 /**
  * This class will be handle plugin activation part as Singleton method.
  */
@@ -103,7 +108,7 @@ final Class DmPluginActivate {
      */
     public function dm_load_admin_menu_template(): void
     {
-        require_once DM_PLUGIN_DIR . '/App/Views/AdminView.php';
+        require_once DM_PLUGIN_DIR . '/App/Views/DmAdminView.php';
     }
 
     /**
