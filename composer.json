@@ -1,0 +1,16 @@
+{
+    "name": "ddev/danushka-madushanka",
+    "description": "Create wordpress plugin working with vue js for coding challenge at AM",
+    "autoload": {
+        "psr-4": {
+            "Ddev\\": "App"
+        }
+    },
+    "authors": [
+        {
+            "name": "danushka181",
+            "email": "danushka181@gmail.com"
+        }
+    ],
+    "require": {}
+}
