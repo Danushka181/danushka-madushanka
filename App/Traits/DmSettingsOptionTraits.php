@@ -62,13 +62,10 @@ trait DmSettingsOptionTraits {
      * @return boolean true if the option update was successful.
      * @since 1.0.0
      */
-    protected function update_dm_settings_on_database( string $name, array $value, string $autoload = null ): bool
+    protected function update_dm_option_settings_to_database(string $name, array $value, string $autoload = null ): bool
     {
         // get the already saved settings.
         $current_settings = $this->get_saved_dm_option_settings();
-        if ( ! $current_settings ) {
-            $current_settings = $this->get_default_settings();
-        }
         $updated_settings = wp_parse_args( $value, $current_settings );
 
         $value = wp_json_encode( $updated_settings );

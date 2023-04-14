@@ -28,6 +28,8 @@ class DmSettingOptionHandler {
 
     /**
      * Create Setting options in the Database.
+     *
+     * @since 1.0.0
      * @return void
      */
     public function create_setting_option(): void
@@ -36,8 +38,20 @@ class DmSettingOptionHandler {
         $settings = $this->get_saved_dm_option_settings( $this->option_name );
         if ( ! $settings ) {
             $value = $this->get_default_settings();
-            $dd = $this->save_dm_option_settings_to_database( $this->option_name, $value );
+            $this->save_dm_option_settings_to_database( $this->option_name, $value );
         }
+    }
+
+    /**
+     * Update settings on the database.
+     *
+     * @param $settings array settings array to update option field.
+     * @return void
+     * @since 1.0.0
+     */
+    public function update_setting_option(array $settings ): void
+    {
+        $this->update_dm_option_settings_to_database( $settings );
     }
 
 
