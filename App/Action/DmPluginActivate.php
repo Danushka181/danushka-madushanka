@@ -11,6 +11,7 @@ namespace Ddev\Action;
 use Ddev\Admin\DmAdminNotices;
 use Ddev\Data\DmSettingOptionHandler;
 use Ddev\Data\DmPluginDataCollection;
+use Ddev\Ajax\DmRegisterAjaxCalls;
 
 // Exit if accessed directly.
 if ( ! defined( 'ABSPATH' ) ) {
@@ -71,9 +72,14 @@ final Class DmPluginActivate {
             // set data to plugin after installation.
             $dm_plugin_data = new DmPluginDataCollection();
             $dm_plugin_data->process_plugin_api_data();
+
+			// register ajax calls here.
+	        new DmRegisterAjaxCalls();
         }else{
-            $admin_message = new DmAdminNotices();
-            $admin_message->show_dm_admin_notice( 'success', 'You are not authorized to perform this action.' );
+            if ( is_user_logged_in() ) {
+	            $admin_message = new DmAdminNotices();
+	            $admin_message->show_dm_admin_notice( 'success', 'You are not authorized to perform this action.' );
+            }
         }
     }
 
@@ -104,9 +110,13 @@ final Class DmPluginActivate {
      */
     public function load_dm_plugin_assets(): void
     {
-        wp_enqueue_script( 'dm-vue-file', DM_PLUGIN_URL . '/dist/js/main.js', array(), DM_VERSION, true );
+        wp_enqueue_script( 'dm-vue-script', DM_PLUGIN_URL . '/dist/js/main.js', array(), DM_VERSION, true );
         wp_enqueue_style( 'dm-plugin-style', DM_PLUGIN_URL . '/dist/css/main.css', array(), DM_VERSION, false );
 
+	    wp_localize_script( 'dm-vue-script', 'dmVueNonce', array(
+		    'ajax_url' => admin_url( 'admin-ajax.php' ),
+		    'nonce' => wp_create_nonce( 'dm_nonce' ),
+	    ) );
         $admin_message = new DmAdminNotices();
         $admin_message->show_dm_no_script_message();
     }
