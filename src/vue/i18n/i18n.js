@@ -1,11 +1,18 @@
-import Vue from 'vue';
-import VueI18n from 'vue-i18n';
+import { createI18n } from 'vue-i18n';
 
-Vue.use(VueI18n);
+const messages = {
+    en: {
+        greeting: 'Hello!'
+    },
+    es: {
+        greeting: '¡Hola!'
+    }
+};
 
-const i18n = new VueI18n({
-    locale: 'en', // set the default locale
-    messages: {}
+const i18n = createI18n({
+    locale: 'en',
+    fallbackLocale: 'en',
+    messages
 });
 
-export { i18n };
+export default i18n;

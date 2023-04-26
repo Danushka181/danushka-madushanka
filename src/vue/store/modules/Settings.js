@@ -1,39 +1,41 @@
-import axios from 'axios';
-
 const state = {
-    settings: [],
-};
+    settings: {
+        numrows: 5,
+        humandate: false,
+        emails: []
+    }
+}
 
 const getters = {
     dmSettings: state => state.settings
-};
-
-const actions = {
-    async getSettings({ commit }) {
-        const response = await axios.get(
-            'https://jsonplaceholder.typicode.com/todos'
-        );
-
-        commit('dmSettings', response.data);
-    },
-};
+}
 
 const mutations = {
-    setSettings: (state, settings) => (state.settings = setting),
-    newTodo: (state, todo) => state.todos.unshift(todo),
-    removeTodo: (state, id) =>
-        (state.todos = state.todos.filter(todo => todo.id !== id)),
-    updateTodo: (state, updTodo) => {
-        const index = state.todos.findIndex(todo => todo.id === updTodo.id);
-        if (index !== -1) {
-            state.todos.splice(index, 1, updTodo);
+    SET_SETTINGS: (state, settings) => {
+        state.settings = settings
+    }
+}
+
+const actions = {
+    async fetchSettings({ commit }) {
+        const response = await fetch('/api/settings')
+        const settings = await response.json()
+        commit('SET_SETTINGS', settings)
+    },
+
+    async loadSettings({ dispatch }) {
+        try {
+            await dispatch('fetchSettings')
+            // Settings loaded successfully
+        } catch (error) {
+            // Error loading settings
         }
     }
-};
+}
 
 export default {
     state,
     getters,
     actions,
     mutations
-};
+}
