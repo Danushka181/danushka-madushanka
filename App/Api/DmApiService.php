@@ -42,11 +42,9 @@ class DmApiService {
     public function fetch_data_from_server(): string|false
     {
         $response = wp_safe_remote_get($this->api_url);
-
         if (is_wp_error($response)) {
             return false;
         }
-
         return wp_remote_retrieve_body($response);
     }
 
