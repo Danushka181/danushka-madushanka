@@ -6,3 +6,10 @@ run `composer install` and `npm install` on root directory.
 
 # Run development Server
 `npm run dev`
+
+# Screens
+![Screenshot](/dist/table.png "Table Screen")
+
+![Screenshot](/dist/graph.png "Graph Screen")
+
+![Screenshot](/dist/settings.png "Settings Screen")
