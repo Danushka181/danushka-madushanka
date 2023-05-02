@@ -32,7 +32,7 @@ class DmPluginDataCollection {
 	 *
 	 * @var string
 	 */
-	private string $cache_key = '';
+	private string $cache_key;
 
 	/**
 	 * Set cache key.
@@ -50,7 +50,7 @@ class DmPluginDataCollection {
 	 * @since 1.0.0
 	 */
 	public function process_plugin_api_data(): void {
-		$cache_data = $this->load_cached_data_by_cache_key();
+		$cache_data = $this->load_cache_data();
 		if ( false === $cache_data ) {
 			$this->call_to_dm_api_service();
 		}
@@ -58,12 +58,24 @@ class DmPluginDataCollection {
 	}
 
 	/**
+	 * Load Cached data.
+	 * @return mixed
+	 */
+	public function load_cache_data(): mixed {
+		$cached_data = $this->load_cached_data_by_cache_key();
+		if ( !$cached_data ) {
+			return $this->call_to_dm_api_service();
+		}
+		return $cached_data;
+	}
+
+	/**
 	 * Call to api service as schedule and directly to get data.
 	 *
-	 * @return array|bool
+	 * @return string|array
 	 * @since 1.0.0
 	 */
-	public function call_to_dm_api_service(): array|bool {
+	public function call_to_dm_api_service(): string|array {
 		$this->delete_dm_api_cached_data();
 		$server_data = $this->dm_request_data_from_server();
 		$this->set_data_cache_for_one_hour( $server_data );
@@ -73,15 +85,15 @@ class DmPluginDataCollection {
 	/**
 	 * Request data From server.
 	 *
-	 * @return bool|array
+	 * @return string|array
 	 * @since 1.0.0
 	 */
-	public function dm_request_data_from_server(): bool|array {
+	public function dm_request_data_from_server(): string|array {
 		$api_service = new DmApiService( $this->api_link );
 		$api_data = $api_service->fetch_data_from_server();
 		if ( $api_data ) {
-			return json_encode( $api_data );
+			return $api_data;
 		}
-		return false;
+		return [];
 	}
 }

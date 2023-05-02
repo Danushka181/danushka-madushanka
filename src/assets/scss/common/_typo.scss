@@ -1,0 +1,29 @@
+
+.common-heading{
+  margin: 10px 0 40px 15px;
+  position: relative;
+  &:before{
+    content: '';
+    position: absolute;
+    left: -15px;
+    top: -3px;
+    background: var(--dm-border-gray);
+    width: 5px;
+    border-radius: 2px;
+    height: 24px;
+  }
+}
+
+h1,
+h3,
+h3,
+h4,
+h5,
+h6{
+  font-family: var(--dm-main-font);
+  color: var(--dm-dark-gray);
+}
+
+h3{
+  margin-bottom: 30px;
+}

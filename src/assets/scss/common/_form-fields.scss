@@ -1,0 +1,141 @@
+.fields-wrapper{
+  margin:10px 0;
+  input{
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: 1px solid var(--dm-border-gray);
+    color: var(--dm-dark-gray);
+    font-weight: 300;
+    outline: none;
+    &:focus{
+      border: 1px solid var(--dm-dark-gray);
+    }
+  }
+  select{
+    padding: 10px;
+  }
+}
+
+.btn-def{
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: 1px solid var(--dm-border-gray);
+  font-size: 1.2em;
+  color: var(--dm-dark-gray);
+  cursor: pointer;
+  background-color: var(--dm-white);
+  transition: opacity, color, background-color 0.2s ease-in-out;
+  &:hover{
+    background-color: var(--dm-dark-gray);
+    color: var(--dm-white);
+  }
+  &:disabled{
+    pointer-events: none;
+    opacity: 0.4;
+  }
+  &.fetch-live{
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    color: var(--dm-white);
+    background-color: var(--dm-deep-red);
+    padding: 10px 40px;
+    &:hover{
+      background-color: var(--dm-dark-gray);
+    }
+  }
+}
+
+.email-settings,
+.rows-and-date{
+  padding: 10px 20px 20px 20px;
+  border: 1px dashed var(--dm-border-gray);
+  margin-bottom: 20px;
+  .fields-wrapper{
+    display: grid;
+    grid-template-columns: 350px 40px 40px auto;
+    gap: 10px;
+    max-width: 460px;
+    &:hover{
+      .email-btn{
+        opacity: 1;
+      }
+    }
+  }
+  select{
+    padding: 5px 15px;
+    width: 70px;
+  }
+  input[type=checkbox] {
+    position: relative;
+    border: 2px solid var(--dm-dark-gray);
+    border-radius: 2px;
+    background: none;
+    cursor: pointer;
+    line-height: 0;
+    margin: 0 .6em 0 0;
+    outline: 0;
+    padding: 0 !important;
+    vertical-align: text-top;
+    height: 20px;
+    width: 20px;
+    -webkit-appearance: none;
+    opacity: .5;
+    outline: none;
+  }
+  input[type=checkbox]:hover {
+    opacity: 1;
+  }
+
+  input[type=checkbox]:checked {
+    background-color: var(--dm-dark-gray);
+    opacity: 1;
+  }
+
+  input[type=checkbox]:before {
+    content: '';
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    width: 4px;
+    height: 10px;
+    border: solid var(--dm-white);
+    border-width: 0 2px 2px 0;
+    margin: -1px -1px 0 -1px;
+    transform: rotate(45deg) translate(-50%, -50%);
+    z-index: 2;
+  }
+}
+
+.email-btn{
+  border-radius: 5px;
+  border: 1px solid var(--dm-border-gray);
+  font-size: 1.8em;
+  color: var(--dm-dark-gray);
+  opacity: 0.4;
+  cursor: pointer;
+  transition: opacity, color, background-color 0.2s ease-in-out;
+  &:hover{
+    color: var(--dm-white);
+  }
+  &:disabled{
+    pointer-events: none;
+    opacity: 0.4 !important;
+  }
+  &--add{
+    &:hover{
+      background: var(--dm-dark-gray);
+    }
+  }
+  &--delete{
+    &:hover{
+      background: var(--dm-deep-red);
+    }
+  }
+}
+
+.action-btn{
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}

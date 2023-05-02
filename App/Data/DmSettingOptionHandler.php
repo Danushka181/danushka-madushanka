@@ -42,16 +42,26 @@ class DmSettingOptionHandler {
         }
     }
 
+	/**
+	 * Get saved setting options in database.
+	 * 
+	 * @since 1.0.0
+	 * @return mixed
+	 */
+	public function get_all_settings(): mixed {
+		return $this->get_saved_dm_option_settings( $this->option_name );
+	}
+
     /**
      * Update settings on the database.
      *
      * @param $settings array settings array to update option field.
-     * @return void
+     * @return boolean
      * @since 1.0.0
      */
-    public function update_setting_option(array $settings ): void
+    public function update_setting_option( array $settings ): bool
     {
-        $this->update_dm_option_settings_to_database( $settings );
+	    return $this->update_dm_option_settings_to_database( $this->option_name, $settings );
     }
 
 

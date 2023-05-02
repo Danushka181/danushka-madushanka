@@ -34,24 +34,25 @@ trait DmCacheDataTraits {
 	/**
 	 * Add data cache using wp transient.
 	 *
-	 * @param array|bool $data array Api data Caching.
-	 * @return array|bool
+	 * @param mixed $data array Api data Caching.
+	 *
+	 * @return bool
 	 * @since 1.0.0
 	 */
-    public function set_data_cache_for_one_hour( array|bool $data ): array|bool
-    {
-        return set_transient( $this->cache_eky, wp_json_encode( $data ), HOUR_IN_SECONDS );
+    public function set_data_cache_for_one_hour( mixed $data ): bool {
+        return set_transient( $this->cache_eky, serialize( $data ), HOUR_IN_SECONDS );
     }
 
     /**
      * Load transient cache data by key name.
      *
-     * @return array|bool cache data array.
+     * @return mixed cache data array.
      * @since 1.0.0
      */
-    protected function load_cached_data_by_cache_key(): array|bool
+    protected function load_cached_data_by_cache_key(): mixed
     {
-        return get_transient( $this->cache_eky );
+		$cache_data = get_transient( $this->cache_eky );
+	    return unserialize( $cache_data );
     }
 
     /**

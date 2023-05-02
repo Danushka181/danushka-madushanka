@@ -29,14 +29,14 @@
  * Exit if accessed directly.
  */
 if ( ! defined( 'ABSPATH' ) ) {
-    exit;
+	exit;
 }
 
 /**
  * Define file Path.
  */
 if ( ! defined( 'DM_FILE' ) ) {
-    define( 'DM_FILE', __FILE__ );
+	define( 'DM_FILE', __FILE__ );
 }
 
 /**
@@ -68,6 +68,18 @@ add_action( 'plugins_loaded', 'dm_plugin_initialize' );
  */
 function dm_plugin_initialize(): void
 {
-    $instance = Ddev\Action\DmPluginActivate::get_instance();
-    $instance->initialize_plugin_data();
+	$instance = Ddev\Action\DmPluginActivate::get_instance();
+	$instance->initialize_plugin_data();
+}
+
+/**
+ * Uninstall Plugin.
+ * @return void
+ */
+register_deactivation_hook( __FILE__, 'dm_plugin_uninstall' );
+function dm_plugin_uninstall() {
+	include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
+	if ( is_plugin_active( 'danushka-madushanka/danushka-madushanka.php' ) ) {
+		include_once( plugin_dir_path( __FILE__ ) . 'uninstall.php' );
+	}
 }
