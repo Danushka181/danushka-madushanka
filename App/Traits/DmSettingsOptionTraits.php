@@ -34,7 +34,7 @@ trait DmSettingsOptionTraits {
     protected function get_saved_dm_option_settings(string $name, bool $default = false ): mixed
     {
         // return decoded option data.
-        return json_decode( get_option( $name, $default ) );
+        return unserialize( get_option( $name, $default ) );
     }
 
     /**
@@ -49,8 +49,7 @@ trait DmSettingsOptionTraits {
     protected function save_dm_option_settings_to_database(string $name, mixed $value, string $autoload = 'yes' ): bool
     {
         // Encode Value before add to Database.
-        $value = wp_json_encode( $value );
-        return add_option( $name, $value, '', $autoload );
+        return add_option( $name, serialize( $value ), '', $autoload );
     }
 
     /**
@@ -64,12 +63,7 @@ trait DmSettingsOptionTraits {
      */
     protected function update_dm_option_settings_to_database(string $name, array $value, string $autoload = null ): bool
     {
-        // get the already saved settings.
-        $current_settings = $this->get_saved_dm_option_settings();
-        $updated_settings = wp_parse_args( $value, $current_settings );
-
-        $value = wp_json_encode( $updated_settings );
-        return update_option( $name, $value, $autoload );
+        return update_option( $name, serialize( $value ), $autoload );
     }
 
 }

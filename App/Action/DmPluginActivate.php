@@ -143,6 +143,4 @@ final Class DmPluginActivate {
         return current_user_can( self::CAPABILITY_RETRIEVE );
     }
 
-
-
 }

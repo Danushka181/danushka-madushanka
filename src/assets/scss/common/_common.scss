@@ -1,4 +1,4 @@
-// no script message style.
+/* No js Script message styles */
 .dm-no-js{
   display: block;
   width: 100%;
@@ -9,6 +9,7 @@
   font-size: 14px;
 }
 
+/* DM admin view wrapper default styles */
 #dm_admin_view{
   font-family: var(--dm-main-font);
   width: calc(100% + 20px);
@@ -19,4 +20,57 @@
   >div{
     width: 100%;
   }
+}
+
+.block-wrap{
+  padding: 20px;
+  border: 2px solid var(--dm-white);
+  margin: 20px;
+  background: var(--dm-white);
+  border-radius: 5px;
+  box-shadow: var(--dm-shadow-1);
+  min-height: 250px;
+}
+
+.settings-wrapper{
+  position: relative;
+}
+
+.notifications-bar{
+  position: absolute;
+  right: 0;
+  top: 0;
+  ul{
+    display: flex;
+    flex-flow: column;
+    li{
+      background-color: #1c7430;
+      padding: 10px 20px;
+      color: #fff;
+      transform: translate(100%);
+      opacity: 0;
+      pointer-events: none;
+      transition: all 0.3s ease-in-out;
+      &.error{
+        background-color: var(--dm-deep-red);
+      }
+    }
+  }
+  &.show{
+    ul{
+      li{
+        transform: translate(0);
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.graph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.graph-view{
+  max-width: 600px;
 }

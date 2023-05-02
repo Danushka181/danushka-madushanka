@@ -6,7 +6,18 @@
 </template>
 
 <script>
+  import {useStore} from "vuex";
+  import {onMounted} from "vue";
+
   export default {
-    name: 'App'
+    name: 'App',
+      setup() {
+          const store = useStore();
+
+          // Get all settings when app mounted.
+          onMounted(() => {
+              store.dispatch('fetchSettings');
+          });
+      }
   };
 </script> 

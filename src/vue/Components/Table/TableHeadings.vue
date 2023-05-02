@@ -1,31 +1,26 @@
 <template>
     <thead>
-      <tr>
-          <th>Name</th>
-          <th>Email</th>
-      </tr>
+    <tr>
+        <th v-for="(heading, index) in dmTableDataHeaders" :key="index">{{ heading }}</th>
+    </tr>
     </thead>
 </template>
+
 <script>
-import { mapGetters } from 'vuex';
-import { toRaw } from 'vue'
+import { computed } from 'vue';
+import { useStore } from 'vuex';
+
 export default {
     name: 'TableHeadings',
-    computed: {
-        ...mapGetters([
-            'dmTableData'
-        ])
-    },
-    created() {
-        this.$store.dispatch('loadTableData');
-        console.log('dmTableData:', this.dmTableData)
+    setup() {
+        const store = useStore();
+        const dmTableDataHeaders = computed(() => {
+            return store.getters.dmTableDataHeaders;
+        });
 
+        return {
+            dmTableDataHeaders,
+        };
     },
-    methods: {
-        getTableData() {
-            const tableData = toRaw(this.dmTableData)
-            console.log(tableData)
-        }
-    }
-}
+};
 </script>

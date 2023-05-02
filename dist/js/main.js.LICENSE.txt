@@ -1,0 +1,683 @@
+/*!
+  * core-base v9.2.2
+  * (c) 2022 kazuya kawaguchi
+  * Released under the MIT License.
+  */
+
+/*!
+  * devtools-if v9.2.2
+  * (c) 2022 kazuya kawaguchi
+  * Released under the MIT License.
+  */
+
+/*!
+  * message-compiler v9.2.2
+  * (c) 2022 kazuya kawaguchi
+  * Released under the MIT License.
+  */
+
+/*!
+  * shared v9.2.2
+  * (c) 2022 kazuya kawaguchi
+  * Released under the MIT License.
+  */
+
+/*!
+  * vue-devtools v9.2.2
+  * (c) 2022 kazuya kawaguchi
+  * Released under the MIT License.
+  */
+
+/*!
+  * vue-i18n v9.2.2
+  * (c) 2022 kazuya kawaguchi
+  * Released under the MIT License.
+  */
+
+/*!
+  * vue-router v4.1.6
+  * (c) 2022 Eduardo San Martin Morote
+  * @license MIT
+  */
+
+/*!
+ * ApexCharts v3.40.0
+ * (c) 2018-2023 ApexCharts
+ * Released under the MIT License.
+ */
+
+/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use!../../../../node_modules/vue-loader/dist/index.js??ruleSet[1].rules[11].use[0]!./ApexGraph.vue?vue&type=script&lang=js */
+
+/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use!../../../../node_modules/vue-loader/dist/index.js??ruleSet[1].rules[11].use[0]!./CustomGraph.vue?vue&type=script&lang=js */
+
+/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use!../../../../node_modules/vue-loader/dist/index.js??ruleSet[1].rules[11].use[0]!./EmailSettings.vue?vue&type=script&lang=js */
+
+/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use!../../../../node_modules/vue-loader/dist/index.js??ruleSet[1].rules[11].use[0]!./Graph.vue?vue&type=script&lang=js */
+
+/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use!../../../../node_modules/vue-loader/dist/index.js??ruleSet[1].rules[11].use[0]!./LiveDataButton.vue?vue&type=script&lang=js */
+
+/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use!../../../../node_modules/vue-loader/dist/index.js??ruleSet[1].rules[11].use[0]!./RowAndDateFormat.vue?vue&type=script&lang=js */
+
+/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use!../../../../node_modules/vue-loader/dist/index.js??ruleSet[1].rules[11].use[0]!./Settings.vue?vue&type=script&lang=js */
+
+/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use!../../../../node_modules/vue-loader/dist/index.js??ruleSet[1].rules[11].use[0]!./Table.vue?vue&type=script&lang=js */
+
+/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use!../../../../node_modules/vue-loader/dist/index.js??ruleSet[1].rules[11].use[0]!./TableFooter.vue?vue&type=script&lang=js */
+
+/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use!../../../../node_modules/vue-loader/dist/index.js??ruleSet[1].rules[11].use[0]!./TableHeadings.vue?vue&type=script&lang=js */
+
+/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use!../../../../node_modules/vue-loader/dist/index.js??ruleSet[1].rules[11].use[0]!./TableRows.vue?vue&type=script&lang=js */
+
+/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use!../../../../node_modules/vue-loader/dist/index.js??ruleSet[1].rules[11].use[0]!./ValidateMessages.vue?vue&type=script&lang=js */
+
+/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use!../../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../../node_modules/vue-loader/dist/index.js??ruleSet[1].rules[11].use[0]!./ApexGraph.vue?vue&type=template&id=100a9918 */
+
+/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use!../../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../../node_modules/vue-loader/dist/index.js??ruleSet[1].rules[11].use[0]!./CustomGraph.vue?vue&type=template&id=2a15f605 */
+
+/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use!../../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../../node_modules/vue-loader/dist/index.js??ruleSet[1].rules[11].use[0]!./EmailSettings.vue?vue&type=template&id=d01dd66e */
+
+/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use!../../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../../node_modules/vue-loader/dist/index.js??ruleSet[1].rules[11].use[0]!./Graph.vue?vue&type=template&id=55174c1f */
+
+/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use!../../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../../node_modules/vue-loader/dist/index.js??ruleSet[1].rules[11].use[0]!./LiveDataButton.vue?vue&type=template&id=05d28090 */
+
+/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use!../../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../../node_modules/vue-loader/dist/index.js??ruleSet[1].rules[11].use[0]!./RowAndDateFormat.vue?vue&type=template&id=64945570 */
+
+/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use!../../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../../node_modules/vue-loader/dist/index.js??ruleSet[1].rules[11].use[0]!./Settings.vue?vue&type=template&id=2dfa013c */
+
+/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use!../../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../../node_modules/vue-loader/dist/index.js??ruleSet[1].rules[11].use[0]!./Table.vue?vue&type=template&id=2485869f */
+
+/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use!../../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../../node_modules/vue-loader/dist/index.js??ruleSet[1].rules[11].use[0]!./TableFooter.vue?vue&type=template&id=394ac131 */
+
+/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use!../../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../../node_modules/vue-loader/dist/index.js??ruleSet[1].rules[11].use[0]!./TableHeadings.vue?vue&type=template&id=46a3a872 */
+
+/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use!../../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../../node_modules/vue-loader/dist/index.js??ruleSet[1].rules[11].use[0]!./TableRows.vue?vue&type=template&id=7bf6c5ef */
+
+/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use!../../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../../node_modules/vue-loader/dist/index.js??ruleSet[1].rules[11].use[0]!./ValidateMessages.vue?vue&type=template&id=f635b1f0 */
+
+/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use!../../../node_modules/vue-loader/dist/index.js??ruleSet[1].rules[11].use[0]!./Navigation.vue?vue&type=script&lang=js */
+
+/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use!../../../node_modules/vue-loader/dist/index.js??ruleSet[1].rules[11].use[0]!./Routes.vue?vue&type=script&lang=js */
+
+/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use!../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/dist/index.js??ruleSet[1].rules[11].use[0]!./Navigation.vue?vue&type=template&id=3c6b009d */
+
+/*! -!../../node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use!../../node_modules/vue-loader/dist/index.js??ruleSet[1].rules[11].use[0]!./App.vue?vue&type=script&lang=js */
+
+/*! -!../../node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use!../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../node_modules/vue-loader/dist/index.js??ruleSet[1].rules[11].use[0]!./App.vue?vue&type=template&id=5e019a2f */
+
+/*! ../../Components/Graph/ApexGraph.vue */
+
+/*! ../../Components/Graph/CustomGraph.vue */
+
+/*! ../../Components/Graph/LiveDataButton.vue */
+
+/*! ../../Components/Setting/EmailSettings.vue */
+
+/*! ../../Components/Setting/RowAndDateFormat.vue */
+
+/*! ../../Components/Table/TableFooter.vue */
+
+/*! ../../Components/Table/TableHeadings.vue */
+
+/*! ../../Components/Table/TableRows.vue */
+
+/*! ../Admin/Tabs/Graph.vue */
+
+/*! ../Admin/Tabs/Settings.vue */
+
+/*! ../Admin/Tabs/Table.vue */
+
+/*! ../Navigation/Navigation.vue */
+
+/*! ./ApexGraph.vue?vue&type=script&lang=js */
+
+/*! ./ApexGraph.vue?vue&type=template&id=100a9918 */
+
+/*! ./App.vue?vue&type=script&lang=js */
+
+/*! ./App.vue?vue&type=template&id=5e019a2f */
+
+/*! ./CustomGraph.vue?vue&type=script&lang=js */
+
+/*! ./CustomGraph.vue?vue&type=template&id=2a15f605 */
+
+/*! ./EmailSettings.vue?vue&type=script&lang=js */
+
+/*! ./EmailSettings.vue?vue&type=template&id=d01dd66e */
+
+/*! ./Graph.vue?vue&type=script&lang=js */
+
+/*! ./Graph.vue?vue&type=template&id=55174c1f */
+
+/*! ./LiveDataButton.vue?vue&type=script&lang=js */
+
+/*! ./LiveDataButton.vue?vue&type=template&id=05d28090 */
+
+/*! ./Navigation.vue?vue&type=script&lang=js */
+
+/*! ./Navigation.vue?vue&type=template&id=3c6b009d */
+
+/*! ./Routes.vue?vue&type=script&lang=js */
+
+/*! ./RowAndDateFormat.vue?vue&type=script&lang=js */
+
+/*! ./RowAndDateFormat.vue?vue&type=template&id=64945570 */
+
+/*! ./Settings.vue?vue&type=script&lang=js */
+
+/*! ./Settings.vue?vue&type=template&id=2dfa013c */
+
+/*! ./Table.vue?vue&type=script&lang=js */
+
+/*! ./Table.vue?vue&type=template&id=2485869f */
+
+/*! ./TableFooter.vue?vue&type=script&lang=js */
+
+/*! ./TableFooter.vue?vue&type=template&id=394ac131 */
+
+/*! ./TableHeadings.vue?vue&type=script&lang=js */
+
+/*! ./TableHeadings.vue?vue&type=template&id=46a3a872 */
+
+/*! ./TableRows.vue?vue&type=script&lang=js */
+
+/*! ./TableRows.vue?vue&type=template&id=7bf6c5ef */
+
+/*! ./ValidateMessages.vue */
+
+/*! ./ValidateMessages.vue?vue&type=script&lang=js */
+
+/*! ./ValidateMessages.vue?vue&type=template&id=f635b1f0 */
+
+/*! ./assets/scss/style.scss */
+
+/*! ./const.js */
+
+/*! ./dist/vue.cjs.js */
+
+/*! ./env.js */
+
+/*! ./modules/Graph */
+
+/*! ./modules/Settings */
+
+/*! ./modules/TableData */
+
+/*! ./node_modules/vue-loader/dist/exportHelper.js */
+
+/*! ./proxy.js */
+
+/*! ./time.js */
+
+/*! ./vue/App.vue */
+
+/*! ./vue/Routes/Routes.vue */
+
+/*! ./vue/i18n/i18n.js */
+
+/*! ./vue/store/store */
+
+/*! @intlify/core-base */
+
+/*! @intlify/devtools-if */
+
+/*! @intlify/message-compiler */
+
+/*! @intlify/shared */
+
+/*! @intlify/vue-devtools */
+
+/*! @vue/compiler-core */
+
+/*! @vue/compiler-dom */
+
+/*! @vue/devtools-api */
+
+/*! @vue/reactivity */
+
+/*! @vue/runtime-core */
+
+/*! @vue/runtime-dom */
+
+/*! @vue/shared */
+
+/*! apexcharts */
+
+/*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE */
+
+/*! svg.draggable.js - v2.2.2 - 2019-01-08
+* https://github.com/svgdotjs/svg.draggable.js
+* Copyright (c) 2019 Wout Fierens; Licensed MIT */
+
+/*! svg.filter.js - v2.0.2 - 2016-02-24
+* https://github.com/wout/svg.filter.js
+* Copyright (c) 2016 Wout Fierens; Licensed MIT */
+
+/*! vue */
+
+/*! vue-i18n */
+
+/*! vue-router */
+
+/*! vue3-apexcharts */
+
+/*! vuex */
+
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+
+/*!*************************!*\
+  !*** ./src/vue/App.vue ***!
+  \*************************/
+
+/*!******************************!*\
+  !*** ./src/vue/i18n/i18n.js ***!
+  \******************************/
+
+/*!********************************!*\
+  !*** ./src/vue/store/store.js ***!
+  \********************************/
+
+/*!***********************************!*\
+  !*** ./node_modules/vue/index.js ***!
+  \***********************************/
+
+/*!***********************************!*\
+  !*** ./src/vue/Routes/Routes.vue ***!
+  \***********************************/
+
+/*!************************************!*\
+  !*** ./src/assets/scss/style.scss ***!
+  \************************************/
+
+/*!**************************************!*\
+  !*** ./src/vue/Admin/Tabs/Graph.vue ***!
+  \**************************************/
+
+/*!**************************************!*\
+  !*** ./src/vue/Admin/Tabs/Table.vue ***!
+  \**************************************/
+
+/*!****************************************!*\
+  !*** ./src/vue/store/modules/Graph.js ***!
+  \****************************************/
+
+/*!*****************************************!*\
+  !*** ./src/vue/Admin/Tabs/Settings.vue ***!
+  \*****************************************/
+
+/*!******************************************!*\
+  !*** ./node_modules/vue/dist/vue.cjs.js ***!
+  \******************************************/
+
+/*!*******************************************!*\
+  !*** ./src/vue/Navigation/Navigation.vue ***!
+  \*******************************************/
+
+/*!*******************************************!*\
+  !*** ./src/vue/store/modules/Settings.js ***!
+  \*******************************************/
+
+/*!********************************************!*\
+  !*** ./src/vue/store/modules/TableData.js ***!
+  \********************************************/
+
+/*!************************************************!*\
+  !*** ./src/vue/Components/Graph/ApexGraph.vue ***!
+  \************************************************/
+
+/*!************************************************!*\
+  !*** ./src/vue/Components/Table/TableRows.vue ***!
+  \************************************************/
+
+/*!*************************************************!*\
+  !*** ./src/vue/App.vue?vue&type=script&lang=js ***!
+  \*************************************************/
+
+/*!**************************************************!*\
+  !*** ./src/vue/Components/Graph/CustomGraph.vue ***!
+  \**************************************************/
+
+/*!**************************************************!*\
+  !*** ./src/vue/Components/Table/TableFooter.vue ***!
+  \**************************************************/
+
+/*!****************************************************!*\
+  !*** ./node_modules/vuex/dist/vuex.esm-bundler.js ***!
+  \****************************************************/
+
+/*!****************************************************!*\
+  !*** ./src/vue/Components/Table/TableHeadings.vue ***!
+  \****************************************************/
+
+/*!*****************************************************!*\
+  !*** ./node_modules/vue-router/dist/vue-router.mjs ***!
+  \*****************************************************/
+
+/*!*****************************************************!*\
+  !*** ./src/vue/Components/Graph/LiveDataButton.vue ***!
+  \*****************************************************/
+
+/*!******************************************************!*\
+  !*** ./node_modules/vue-loader/dist/exportHelper.js ***!
+  \******************************************************/
+
+/*!******************************************************!*\
+  !*** ./src/vue/Components/Setting/EmailSettings.vue ***!
+  \******************************************************/
+
+/*!*******************************************************!*\
+  !*** ./node_modules/@vue/devtools-api/lib/esm/env.js ***!
+  \*******************************************************/
+
+/*!*******************************************************!*\
+  !*** ./src/vue/App.vue?vue&type=template&id=5e019a2f ***!
+  \*******************************************************/
+
+/*!********************************************************!*\
+  !*** ./node_modules/@vue/devtools-api/lib/esm/time.js ***!
+  \********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./node_modules/@vue/devtools-api/lib/esm/const.js ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./node_modules/@vue/devtools-api/lib/esm/index.js ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./node_modules/@vue/devtools-api/lib/esm/proxy.js ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./src/vue/Components/Setting/RowAndDateFormat.vue ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./src/vue/Components/Setting/ValidateMessages.vue ***!
+  \*********************************************************/
+
+/*!**********************************************************!*\
+  !*** ./node_modules/vue/dist/vue.runtime.esm-bundler.js ***!
+  \**********************************************************/
+
+/*!***********************************************************!*\
+  !*** ./node_modules/apexcharts/dist/apexcharts.common.js ***!
+  \***********************************************************/
+
+/*!***********************************************************!*\
+  !*** ./src/vue/Routes/Routes.vue?vue&type=script&lang=js ***!
+  \***********************************************************/
+
+/*!************************************************************!*\
+  !*** ./node_modules/vue-i18n/dist/vue-i18n.esm-bundler.js ***!
+  \************************************************************/
+
+/*!*************************************************************!*\
+  !*** ./node_modules/@vue/shared/dist/shared.esm-bundler.js ***!
+  \*************************************************************/
+
+/*!**************************************************************!*\
+  !*** ./src/vue/Admin/Tabs/Graph.vue?vue&type=script&lang=js ***!
+  \**************************************************************/
+
+/*!**************************************************************!*\
+  !*** ./src/vue/Admin/Tabs/Table.vue?vue&type=script&lang=js ***!
+  \**************************************************************/
+
+/*!*****************************************************************!*\
+  !*** ./node_modules/@intlify/shared/dist/shared.esm-bundler.js ***!
+  \*****************************************************************/
+
+/*!*****************************************************************!*\
+  !*** ./src/vue/Admin/Tabs/Settings.vue?vue&type=script&lang=js ***!
+  \*****************************************************************/
+
+/*!*******************************************************************!*\
+  !*** ./src/vue/Navigation/Navigation.vue?vue&type=script&lang=js ***!
+  \*******************************************************************/
+
+/*!********************************************************************!*\
+  !*** ./src/vue/Admin/Tabs/Graph.vue?vue&type=template&id=55174c1f ***!
+  \********************************************************************/
+
+/*!********************************************************************!*\
+  !*** ./src/vue/Admin/Tabs/Table.vue?vue&type=template&id=2485869f ***!
+  \********************************************************************/
+
+/*!*********************************************************************!*\
+  !*** ./node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js ***!
+  \*********************************************************************/
+
+/*!*********************************************************************!*\
+  !*** ./node_modules/vue3-apexcharts/dist/vue3-apexcharts.common.js ***!
+  \*********************************************************************/
+
+/*!***********************************************************************!*\
+  !*** ./node_modules/@intlify/core-base/dist/core-base.esm-bundler.js ***!
+  \***********************************************************************/
+
+/*!***********************************************************************!*\
+  !*** ./node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js ***!
+  \***********************************************************************/
+
+/*!***********************************************************************!*\
+  !*** ./src/vue/Admin/Tabs/Settings.vue?vue&type=template&id=2dfa013c ***!
+  \***********************************************************************/
+
+/*!************************************************************************!*\
+  !*** ./src/vue/Components/Graph/ApexGraph.vue?vue&type=script&lang=js ***!
+  \************************************************************************/
+
+/*!************************************************************************!*\
+  !*** ./src/vue/Components/Table/TableRows.vue?vue&type=script&lang=js ***!
+  \************************************************************************/
+
+/*!*************************************************************************!*\
+  !*** ./node_modules/@vue/compiler-dom/dist/compiler-dom.esm-bundler.js ***!
+  \*************************************************************************/
+
+/*!*************************************************************************!*\
+  !*** ./node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js ***!
+  \*************************************************************************/
+
+/*!*************************************************************************!*\
+  !*** ./src/vue/Navigation/Navigation.vue?vue&type=template&id=3c6b009d ***!
+  \*************************************************************************/
+
+/*!**************************************************************************!*\
+  !*** ./src/vue/Components/Graph/CustomGraph.vue?vue&type=script&lang=js ***!
+  \**************************************************************************/
+
+/*!**************************************************************************!*\
+  !*** ./src/vue/Components/Table/TableFooter.vue?vue&type=script&lang=js ***!
+  \**************************************************************************/
+
+/*!***************************************************************************!*\
+  !*** ./node_modules/@intlify/devtools-if/dist/devtools-if.esm-bundler.js ***!
+  \***************************************************************************/
+
+/*!***************************************************************************!*\
+  !*** ./node_modules/@vue/compiler-core/dist/compiler-core.esm-bundler.js ***!
+  \***************************************************************************/
+
+/*!****************************************************************************!*\
+  !*** ./src/vue/Components/Table/TableHeadings.vue?vue&type=script&lang=js ***!
+  \****************************************************************************/
+
+/*!*****************************************************************************!*\
+  !*** ./node_modules/@intlify/vue-devtools/dist/vue-devtools.esm-bundler.js ***!
+  \*****************************************************************************/
+
+/*!*****************************************************************************!*\
+  !*** ./src/vue/Components/Graph/LiveDataButton.vue?vue&type=script&lang=js ***!
+  \*****************************************************************************/
+
+/*!******************************************************************************!*\
+  !*** ./src/vue/Components/Graph/ApexGraph.vue?vue&type=template&id=100a9918 ***!
+  \******************************************************************************/
+
+/*!******************************************************************************!*\
+  !*** ./src/vue/Components/Setting/EmailSettings.vue?vue&type=script&lang=js ***!
+  \******************************************************************************/
+
+/*!******************************************************************************!*\
+  !*** ./src/vue/Components/Table/TableRows.vue?vue&type=template&id=7bf6c5ef ***!
+  \******************************************************************************/
+
+/*!********************************************************************************!*\
+  !*** ./src/vue/Components/Graph/CustomGraph.vue?vue&type=template&id=2a15f605 ***!
+  \********************************************************************************/
+
+/*!********************************************************************************!*\
+  !*** ./src/vue/Components/Table/TableFooter.vue?vue&type=template&id=394ac131 ***!
+  \********************************************************************************/
+
+/*!*********************************************************************************!*\
+  !*** ./src/vue/Components/Setting/RowAndDateFormat.vue?vue&type=script&lang=js ***!
+  \*********************************************************************************/
+
+/*!*********************************************************************************!*\
+  !*** ./src/vue/Components/Setting/ValidateMessages.vue?vue&type=script&lang=js ***!
+  \*********************************************************************************/
+
+/*!**********************************************************************************!*\
+  !*** ./src/vue/Components/Table/TableHeadings.vue?vue&type=template&id=46a3a872 ***!
+  \**********************************************************************************/
+
+/*!***********************************************************************************!*\
+  !*** ./src/vue/Components/Graph/LiveDataButton.vue?vue&type=template&id=05d28090 ***!
+  \***********************************************************************************/
+
+/*!************************************************************************************!*\
+  !*** ./src/vue/Components/Setting/EmailSettings.vue?vue&type=template&id=d01dd66e ***!
+  \************************************************************************************/
+
+/*!*************************************************************************************!*\
+  !*** ./node_modules/@intlify/message-compiler/dist/message-compiler.esm-bundler.js ***!
+  \*************************************************************************************/
+
+/*!***************************************************************************************!*\
+  !*** ./src/vue/Components/Setting/RowAndDateFormat.vue?vue&type=template&id=64945570 ***!
+  \***************************************************************************************/
+
+/*!***************************************************************************************!*\
+  !*** ./src/vue/Components/Setting/ValidateMessages.vue?vue&type=template&id=f635b1f0 ***!
+  \***************************************************************************************/
+
+/*!************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[11].use[0]!./src/vue/App.vue?vue&type=script&lang=js ***!
+  \************************************************************************************************************************************************************************************/
+
+/*!**********************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[11].use[0]!./src/vue/Routes/Routes.vue?vue&type=script&lang=js ***!
+  \**********************************************************************************************************************************************************************************************/
+
+/*!*************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[11].use[0]!./src/vue/Admin/Tabs/Graph.vue?vue&type=script&lang=js ***!
+  \*************************************************************************************************************************************************************************************************/
+
+/*!*************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[11].use[0]!./src/vue/Admin/Tabs/Table.vue?vue&type=script&lang=js ***!
+  \*************************************************************************************************************************************************************************************************/
+
+/*!****************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[11].use[0]!./src/vue/Admin/Tabs/Settings.vue?vue&type=script&lang=js ***!
+  \****************************************************************************************************************************************************************************************************/
+
+/*!******************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[11].use[0]!./src/vue/Navigation/Navigation.vue?vue&type=script&lang=js ***!
+  \******************************************************************************************************************************************************************************************************/
+
+/*!***********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[11].use[0]!./src/vue/Components/Graph/ApexGraph.vue?vue&type=script&lang=js ***!
+  \***********************************************************************************************************************************************************************************************************/
+
+/*!***********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[11].use[0]!./src/vue/Components/Table/TableRows.vue?vue&type=script&lang=js ***!
+  \***********************************************************************************************************************************************************************************************************/
+
+/*!*************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[11].use[0]!./src/vue/Components/Graph/CustomGraph.vue?vue&type=script&lang=js ***!
+  \*************************************************************************************************************************************************************************************************************/
+
+/*!*************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[11].use[0]!./src/vue/Components/Table/TableFooter.vue?vue&type=script&lang=js ***!
+  \*************************************************************************************************************************************************************************************************************/
+
+/*!***************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[11].use[0]!./src/vue/Components/Table/TableHeadings.vue?vue&type=script&lang=js ***!
+  \***************************************************************************************************************************************************************************************************************/
+
+/*!****************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[11].use[0]!./src/vue/Components/Graph/LiveDataButton.vue?vue&type=script&lang=js ***!
+  \****************************************************************************************************************************************************************************************************************/
+
+/*!*****************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[11].use[0]!./src/vue/Components/Setting/EmailSettings.vue?vue&type=script&lang=js ***!
+  \*****************************************************************************************************************************************************************************************************************/
+
+/*!********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[11].use[0]!./src/vue/Components/Setting/RowAndDateFormat.vue?vue&type=script&lang=js ***!
+  \********************************************************************************************************************************************************************************************************************/
+
+/*!********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[11].use[0]!./src/vue/Components/Setting/ValidateMessages.vue?vue&type=script&lang=js ***!
+  \********************************************************************************************************************************************************************************************************************/
+
+/*!****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[11].use[0]!./src/vue/App.vue?vue&type=template&id=5e019a2f ***!
+  \****************************************************************************************************************************************************************************************************************************************************************/
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[11].use[0]!./src/vue/Admin/Tabs/Graph.vue?vue&type=template&id=55174c1f ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[11].use[0]!./src/vue/Admin/Tabs/Table.vue?vue&type=template&id=2485869f ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[11].use[0]!./src/vue/Admin/Tabs/Settings.vue?vue&type=template&id=2dfa013c ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[11].use[0]!./src/vue/Navigation/Navigation.vue?vue&type=template&id=3c6b009d ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[11].use[0]!./src/vue/Components/Graph/ApexGraph.vue?vue&type=template&id=100a9918 ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[11].use[0]!./src/vue/Components/Table/TableRows.vue?vue&type=template&id=7bf6c5ef ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[11].use[0]!./src/vue/Components/Graph/CustomGraph.vue?vue&type=template&id=2a15f605 ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[11].use[0]!./src/vue/Components/Table/TableFooter.vue?vue&type=template&id=394ac131 ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[11].use[0]!./src/vue/Components/Table/TableHeadings.vue?vue&type=template&id=46a3a872 ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[11].use[0]!./src/vue/Components/Graph/LiveDataButton.vue?vue&type=template&id=05d28090 ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[11].use[0]!./src/vue/Components/Setting/EmailSettings.vue?vue&type=template&id=d01dd66e ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[11].use[0]!./src/vue/Components/Setting/RowAndDateFormat.vue?vue&type=template&id=64945570 ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[11].use[0]!./src/vue/Components/Setting/ValidateMessages.vue?vue&type=template&id=f635b1f0 ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************/

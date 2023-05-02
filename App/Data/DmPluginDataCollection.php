@@ -57,17 +57,25 @@ class DmPluginDataCollection {
 		new DmScheduleApiCall();
 	}
 
+	/**
+	 * Load Cached data.
+	 * @return mixed
+	 */
 	public function load_cache_data(): mixed {
-		return $this->load_cached_data_by_cache_key();
+		$cached_data = $this->load_cached_data_by_cache_key();
+		if ( !$cached_data ) {
+			return $this->call_to_dm_api_service();
+		}
+		return $cached_data;
 	}
 
 	/**
 	 * Call to api service as schedule and directly to get data.
 	 *
-	 * @return array|bool
+	 * @return string|array
 	 * @since 1.0.0
 	 */
-	public function call_to_dm_api_service(): array|bool {
+	public function call_to_dm_api_service(): string|array {
 		$this->delete_dm_api_cached_data();
 		$server_data = $this->dm_request_data_from_server();
 		$this->set_data_cache_for_one_hour( $server_data );

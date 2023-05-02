@@ -1,40 +1,37 @@
 import { reactive } from 'vue'
 
 const state = reactive({
-    tableData: []
+    tableHeaders: [],
+    dmTableDataRows: [],
+    dmTableTitle: '',
 })
 
 const getters = {
-    dmTableData: () => state.tableData
+    dmTableDataHeaders: () => state.tableHeaders,
+    dmTableDataRows: () => state.dmTableDataRows,
+    dmTableTitle: () => state.dmTableTitle
 }
 
 const mutations = {
-    SET_TABLE_DATA: (data) => {
-        state.tableData = data
+    setTableData(state, data){
+        state.tableHeaders = data.headers;
+        state.dmTableDataRows = data.rows;
+        state.dmTableTitle = data.title;
     }
 }
 
 const actions = {
-    async getTableData({ commit }) {
+    getTableData({ commit }) {
         const data = {
             action: 'dm_get_table_data_ajax',
             nonce: dmVueNonce.nonce,
         }
-
         // Make the AJAX request using jQuery
         jQuery.post(dmVueNonce.ajax_url, data, (response) => {
             const resData = JSON.parse(response)
-            commit('SET_TABLE_DATA', resData)
+            commit('setTableData', resData)
         })
     },
-
-    async loadTableData({ dispatch }) {
-        try {
-            await dispatch('getTableData')
-        } catch (error) {
-            console.log(error)
-        }
-    }
 }
 
 export default {
